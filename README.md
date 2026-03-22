@@ -1,5 +1,5 @@
 # Rock Paper Scissors AI Classifier
-**Cornell University — AI for Engineering Management**
+**Cornell University - AI for Engineering Management**
 **Elisha Gras | March 2026**
 
 ## Overview
