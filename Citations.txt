@@ -1,0 +1,34 @@
+CITATIONS
+=========
+
+AI Assistance
+-------------
+This project was developed with assistance from Claude (Anthropic).
+Claude helped with: CNN architecture design, preprocessing pipeline,
+ESP32 deployment debugging, input format debugging, and classify.py
+smoothing/stability logic.
+
+Instructor-Provided Code (used without modification)
+-----------------------------------------------------
+- image_preprocessing.py
+  Contains: resize_96x96_to_32x32_and_threshold(), strip_bmp_header()
+  Provided by course instructor for ESP32 image preprocessing.
+
+- tflite2tmdl.py
+  Provided by course instructor for converting TFLite models to
+  TinyMaix tmdl format for ESP32 deployment.
+
+- tflite_reader.py
+  Provided by course instructor. Dependency of tflite2tmdl.py.
+
+Third-Party Libraries
+---------------------
+- emlearn_cnn_fp32 (MicroPython)
+  Open source library for running CNN inference on microcontrollers.
+  Used for loading and running the tmdl model on the ESP32.
+
+- TensorFlow / Keras
+  Used for CNN model training and TFLite conversion on laptop.
+
+- Pillow (PIL)
+  Used for image loading and augmentation in reprocess.py.
